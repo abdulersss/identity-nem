@@ -1,0 +1,8 @@
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\bin\Debug\netcoreapp2.1\Identity-app.deps.json
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\bin\Debug\netcoreapp2.1\Identity-app.runtimeconfig.json
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\bin\Debug\netcoreapp2.1\Identity-app.runtimeconfig.dev.json
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\bin\Debug\netcoreapp2.1\Identity-app.dll
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\obj\Debug\netcoreapp2.1\Identity-app.csprojAssemblyReference.cache
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\obj\Debug\netcoreapp2.1\Identity-app.csproj.CoreCompileInputs.cache
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\obj\Debug\netcoreapp2.1\Identity-app.AssemblyInfoInputs.cache
+C:\Users\oesteban.PICL-CGSNRF2\source\repos\Identity-app\Identity-app\obj\Debug\netcoreapp2.1\Identity-app.AssemblyInfo.cs
