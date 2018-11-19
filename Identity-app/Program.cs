@@ -49,20 +49,23 @@ namespace Nem1Test
         {
             try
             {
-                Account account = Account.CreateFromPrivateKey("5cd5a454be8045056bd3c5e67c20dea92a8eb4921351d850f0249983a804a903", NetworkType.Types.TEST_NET);
-                KeyPair keyPair = account.KeyPair;
+                Account sender = Account.CreateFromPrivateKey("5cd5a454be8045056bd3c5e67c20dea92a8eb4921351d850f0249983a804a903", NetworkType.Types.TEST_NET);
+                KeyPair keyPair1 = sender.KeyPair;
+
+                Account reciever = Account.CreateFromPrivateKey("5cd5a454be8045056bd3c5e67c20dea92a8eb4921351d850f0249983a804a903", NetworkType.Types.TEST_NET);
+                KeyPair keyPair2 = reciever.KeyPair;
 
 
                 var transaction = TransferTransaction.Create(
                     NetworkType.Types.TEST_NET,
                     Deadline.CreateHours(2),
                     Address.CreateFromEncoded("TB2Z7J-R2K3BZ-2TRS6D-H5747F-Y3XKUM-BNWCI4-BPDJ"),
-                    new List<Mosaic> { Xem.CreateRelative(10) },
-                    PlainMessage.Create("Well shit. W/ mosaic")
+                    new List<Mosaic> { Xem.CreateRelative(1) },
+                    SecureMessage.Create("Well shit. W/ mosaic", sender.PrivateKey,reciever.PublicKey)
                 );
 
 
-                SignedTransaction signedTransaction = transaction.SignWith(keyPair);
+                SignedTransaction signedTransaction = transaction.SignWith(keyPair1);
 
                 TransactionResponse response = await new TransactionHttp(host).Announce(signedTransaction);
                 Console.WriteLine(response.Message);
