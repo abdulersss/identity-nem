@@ -1733,11 +1733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oesteban.PICL-CGSNRF2\\source\\repos\\Identity-app\\Identity-app\\Identity-app.csproj",
+      "projectUniqueName": "C:\\Users\\oesteban.PICL-CGSNRF2\\source\\repos\\identity-nem\\Identity-app\\Identity-app.csproj",
       "projectName": "Identity-app",
-      "projectPath": "C:\\Users\\oesteban.PICL-CGSNRF2\\source\\repos\\Identity-app\\Identity-app\\Identity-app.csproj",
+      "projectPath": "C:\\Users\\oesteban.PICL-CGSNRF2\\source\\repos\\identity-nem\\Identity-app\\Identity-app.csproj",
       "packagesPath": "C:\\Users\\oesteban.PICL-CGSNRF2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oesteban.PICL-CGSNRF2\\source\\repos\\Identity-app\\Identity-app\\obj\\",
+      "outputPath": "C:\\Users\\oesteban.PICL-CGSNRF2\\source\\repos\\identity-nem\\Identity-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

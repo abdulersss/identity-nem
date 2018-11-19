@@ -4,10 +4,7 @@ using System.Text;
 
 namespace Identity_app
 {
-    class Address
+    class Registration
     {
-        private string Line1;
-        private string Region;
-
     }
 }

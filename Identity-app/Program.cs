@@ -14,7 +14,7 @@ namespace Nem1Test
 {
     class Program
     {
-        readonly static string host = "http://" + Config.Domain + ":7890";
+        readonly static string host = "http://23.228.67.85:7890";
 
         static void Main(string[] args)
         {
@@ -64,7 +64,7 @@ namespace Nem1Test
 
                 SignedTransaction signedTransaction = transaction.SignWith(keyPair);
 
-                TransactionResponse response = await new TransactionHttp("http://" + Config.Domain + ":7890").Announce(signedTransaction);
+                TransactionResponse response = await new TransactionHttp(host).Announce(signedTransaction);
                 Console.WriteLine(response.Message);
             }
             catch (Exception e)
